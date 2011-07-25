@@ -1,16 +1,70 @@
 # - Linux:	/etc/hosts 
 # - Windows:	C:\Windows\system32/Drivers/etc/hosts
 
-74.125.229.99	mail.google.com
-74.125.229.99	docs.google.com
-74.125.229.99	spreadsheets.google.com
-74.125.71.83	www.google.com
-209.85.225.113	sites.google.com
-209.85.225.138	sites.google.com
-209.85.225.139	sites.google.com
-209.85.225.100	sites.google.com
-209.85.225.101	sites.google.com
-209.85.225.102	sites.google.com
+74.125.224.112	www.google.com
+74.125.224.113	www.google.com
+74.125.224.114	www.google.com
+74.125.224.115	www.google.com
+74.125.224.116	www.google.com
+
+74.125.224.117	mail.google.com
+74.125.224.118	mail.google.com
+74.125.224.119	mail.google.com
+74.125.224.120	mail.google.com
+
+74.125.225.64   docs.google.com
+74.125.225.65   docs.google.com
+74.125.225.66   docs.google.com
+74.125.225.67   docs.google.com
+74.125.225.68   docs.google.com
+74.125.225.69   docs.google.com
+74.125.225.70   docs.google.com
+74.125.225.71   docs.google.com
+74.125.225.72   docs.google.com
+74.125.225.73   docs.google.com
+74.125.225.74   docs.google.com
+74.125.225.75   docs.google.com
+74.125.225.76   docs.google.com
+74.125.225.77   docs.google.com
+74.125.225.78   docs.google.com
+74.125.225.79   docs.google.com
+
+
+74.125.224.96	spreadsheets.google.com
+74.125.224.97	spreadsheets.google.com
+74.125.224.98	spreadsheets.google.com
+74.125.224.99	spreadsheets.google.com
+74.125.224.100	spreadsheets.google.com
+74.125.224.101	spreadsheets.google.com
+74.125.224.102	spreadsheets.google.com
+74.125.224.103	spreadsheets.google.com
+74.125.224.104	spreadsheets.google.com
+74.125.224.105	spreadsheets.google.com
+74.125.224.106	spreadsheets.google.com
+74.125.224.107	spreadsheets.google.com
+74.125.224.108	spreadsheets.google.com
+74.125.224.109	spreadsheets.google.com
+74.125.224.110	spreadsheets.google.com
+74.125.224.111	spreadsheets.google.com
+
+74.125.224.96   sites.google.com
+74.125.224.97   sites.google.com
+74.125.224.98   sites.google.com
+74.125.224.99   sites.google.com
+74.125.224.100  sites.google.com
+74.125.224.101  sites.google.com
+74.125.224.102  sites.google.com
+74.125.224.103  sites.google.com
+74.125.224.104  sites.google.com
+74.125.224.105  sites.google.com
+74.125.224.106  sites.google.com
+74.125.224.107  sites.google.com
+74.125.224.108  sites.google.com
+74.125.224.109  sites.google.com
+74.125.224.110  sites.google.com
+74.125.224.111  sites.google.com
+
+
 74.125.225.64	plus.google.com
 74.125.225.65	plus.google.com
 74.125.225.66	plus.google.com
