@@ -1,0 +1,14 @@
+127.0.0.1       localhost
+10.59.31.11     bastion01.mgmt.example.com        mirrors.mgmt.example.com
+10.59.31.21     chef01.mgmt.example.com           chef.mgmt.example.com
+10.59.31.31     scripts01.mgmt.example.com
+
+10.59.24.11     overlay01.transit.example.com
+10.59.24.12     overlay02.transit.example.com
+
+10.60.1.11      overlay01.caas.example.com
+10.60.1.12      overlay02.caas.example.com
+10.60.2.11      eovpn01.caas.example.com
+10.60.2.12      eovpn02.caas.example.com
+10.60.3.11      covpn01.caas.example.com
+10.60.3.12      covpn02.caas.example.com
