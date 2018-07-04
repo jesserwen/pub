@@ -1,13 +1,12 @@
 
-#!/bin/bash
-# wget -O - https://raw.githubusercontent.com/xizhendu/pub/master/init_02_client.bash | bash nginx_ip_address
+the_initial_server=$(w root -i | grep root | awk '{print $3}')
 
-the_initial_server=$1
+sed -i '/mirrors/d' /etc/hosts
+
+echo "$the_initial_server   mirrors" >> /etc/hosts
 
 mkdir -p /etc/yum.repos.d/tmp/
 mv /etc/yum.repos.d/*.repo /etc/yum.repos.d/tmp/
-
-echo "$the_initial_server   mirrors" >> /etc/hosts
 
 cat > /etc/yum.repos.d/std.repo << _eof_
 [os]
@@ -31,7 +30,10 @@ baseurl=http://mirrors/epel/7/x86_64/
 gpgcheck=0
 _eof_
 
+yum install screen -y
 
 mkdir -p /root/.ssh
 wget -O /root/.ssh/authorized_keys http://mirrors/kickstart/id_rsa.pub
+
+wget -O - http://mirrors/kickstart/init_client.bash | bash
 
