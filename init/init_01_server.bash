@@ -11,7 +11,7 @@ yum install -y nginx
 # apt-get install -y nginx
 
 ## Get the configured nginx conf file from external resource, we use github right now.
-mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.orig
+/usr/bin/mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.orig
 wget -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/xizhendu/pub/master/init/nginx.conf
 
 
