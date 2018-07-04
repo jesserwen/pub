@@ -9,6 +9,7 @@ mv /etc/yum.repos.d/*.repo /etc/yum.repos.d/tmp/
 
 echo "$the_initial_server   mirrors" >> /etc/hosts
 
+cat > /etc/yum.repos.d/std.repo << _eof_
 [os]
 name=os
 baseurl=http://mirrors/centos/7/os/x86_64/
