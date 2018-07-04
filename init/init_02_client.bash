@@ -33,5 +33,5 @@ _eof_
 
 
 mkdir -p /root/.ssh
-wget -O /root/.ssh/authorized_keys https://raw.githubusercontent.com/xizhendu/pub/master/id_rsa.pub
+wget -O /root/.ssh/authorized_keys http://mirrors/kickstart/id_rsa.pub
 
