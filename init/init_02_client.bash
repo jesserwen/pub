@@ -30,3 +30,8 @@ name=epel
 baseurl=http://mirrors/epel/7/x86_64/
 gpgcheck=0
 _eof_
+
+
+mkdir -p /root/.ssh
+wget -O /root/.ssh/authorized_keys https://raw.githubusercontent.com/xizhendu/pub/master/id_rsa.pub
+
