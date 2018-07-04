@@ -1,6 +1,7 @@
 
-#/bin/bash
+#!/bin/bash
 # wget -O - https://raw.githubusercontent.com/xizhendu/pub/master/init_02_client.bash | bash nginx_ip_address
+
 the_initial_server=$1
 
 mkdir -p /etc/yum.repos.d/tmp/
