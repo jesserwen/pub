@@ -1,10 +1,13 @@
 ## This is the first file we need run when we need kick a new cloud on China Telecom or Huawei Cloud ##
+## Running the folowing single line on the server is all we need:
 
-wget -O - https://raw.githubusercontent.com/xizhendu/pub/master/init/init_01_server.bash | bash
+#  wget -O - https://raw.githubusercontent.com/xizhendu/pub/master/init/init_01_server.bash | bash
+
+
+
 
 
 # The following will be executed on the first server with external internet access:
-
 
 # init nginx server for the cloud
 yum install -y nginx
